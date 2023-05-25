@@ -1,39 +1,90 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Tour Timisoara
 
-Welcome,
+![Tour Timisoara logo](assets/images/logo-timisoara.jpg)
 
-This is the Code Institute student template for Codeanywhere. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+# UX
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **May 11th, 2023**
+## Project Goals
 
-## Codeanywhere Reminders
+The primary goal of Tour Timisoara is to assist travelers to explore and learn about the city of Timisoara by providing tour guides!
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+1. Clear and concise information shown on multiple devices for tourists.
 
-`python3 -m http.server`
+2. Briefly introduce the potential tour guides.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+3. Allows questions to be asked using a questionaire form.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+4. Provides tour booking service and map of the city in webpage.
 
-`http_server`
+## User stories
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+1. As a potential tourist my goal is to learn about Timisoara before planning a trip or during my stay.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+2. As a potential tourist I want to get some insight on how to get a tour guide.
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+3. As a potential tourist I want to get a brief intro for the tour guides and check out tourist reviews.
 
-To log into the Heroku toolbelt CLI:
+## Design Choices
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+ Colour Scheme - The following colours were selected from the logo image:
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+ #E5E40D
+
+ #F8694A
+
+ #A2A97F
+
+ #D1D3C6
+
+ #ACBBBE
+
+ ### Images
+
+The logo image was obtained from:
+
+https://en.wikipedia.org/wiki/Timi%C8%99oara#/media/File:Historical_Timisoara_CoA_1919_version.jpg
+
+ The images were obtained from the following website:
+
+  https://timisoara2023.eu/en/visit-timi%C8%99oara/
+ 
+### Video
+
+THe video was obtained from:
+
+https://www.dw.com/en/timisoara-2023-shine-your-light/video-64610633
+
+
+## Languages Used
+
+- HTML
+- CSS
+
+## Frameworks & Programs Used
+
+- [Balsamiq](https://balsamiq.com/) - To create the wireframes.
+- [Git](https://git-scm.com/) - For version control.
+- [GitHub](https://www.github.com) - To store code.
+
+## Testing
+
+Testing was ongoing throughout the entire build. I utilised Chrome developer tools whilst building to pinpoint and troubleshoot any issues as I went along.
+
+During development I made use of google developer tools to ensure everything was working correctly and to assist with troubleshooting when things weren't working as expected.
+
+
+## The W3C Validator
+
+[W3C](https://validator.w3.org/) was used to validate the HTML on all pages of the website. 
+
+[W3C](https://validator.w3.org/) was also used to validate the CSS.
+
+- [index.html] (https://validator.w3.org) - needs adding.
+
+- [style.css] - needs adding.
+
+
+
 
 ---
-
-Happy coding!
+ 
