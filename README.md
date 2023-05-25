@@ -72,6 +72,18 @@ Testing was ongoing throughout the entire build. I utilised Chrome developer too
 
 During development I made use of google developer tools to ensure everything was working correctly and to assist with troubleshooting when things weren't working as expected.
 
+## Bugs
+
+1. Tested video using video element but the player didn't work at this point as it is a different format, u3m8 instead of mp4. 
+2. I looked for solutions online, after a few attemps using code from stackoverflow I turned to Youtube.
+3. I found the solution for it, please see links:
+
+ a. youtube video explaining solution - https://www.youtube.com/watch?v=eVKm12T0BPg
+
+ b. website link from where the solution came - https://videojs.com/getting-started
+
+
+
 
 ## The W3C Validator
 
