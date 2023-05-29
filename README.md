@@ -10,11 +10,11 @@ The primary goal of Tour Timisoara is to assist travelers to explore and learn a
 
 1. Clear and concise information shown on multiple devices for tourists.
 
-2. Briefly introduce the potential tour guides.
+2. Briefly introduce the city and potential tour guides.
 
 3. Allows questions to be asked using a questionaire form.
 
-4. Provides tour booking service and map of the city in webpage.
+4. Provides tour booking service and map of the city on contact page.
 
 ## User stories
 
@@ -28,15 +28,15 @@ The primary goal of Tour Timisoara is to assist travelers to explore and learn a
 
  Colour Scheme - The following colours were selected from the logo image:
 
- #E5E40D
+ #E5E40D - https://g.co/kgs/QuKb16
 
- #F8694A
+ #F8694A - https://g.co/kgs/ybzC2i
 
- #A2A97F
+ #A2A97F - https://g.co/kgs/yk5VmX
 
- #D1D3C6
-
- #ACBBBE
+ #D1D3C6 - https://g.co/kgs/NguS4u
+ 
+ #ACBBBE - https://g.co/kgs/1sn4Kz
 
  ### Images
 
@@ -50,7 +50,7 @@ https://en.wikipedia.org/wiki/Timi%C8%99oara#/media/File:Historical_Timisoara_Co
  
 ### Video
 
-THe video was obtained from:
+THe video was obtained from the following website:
 
 https://www.dw.com/en/timisoara-2023-shine-your-light/video-64610633
 
@@ -96,7 +96,7 @@ During development I made use of google developer tools to ensure everything was
     background-size: cover;
   }
 
-3. Tested video
+3. Tested video several times, figured out how to put video in the section page infront of the image.
 
 ## The W3C Validator
 
