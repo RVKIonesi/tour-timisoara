@@ -10,7 +10,6 @@ body {
 header {
 
   position: relative;
-  z-index: 2;
 }
 
 .logo {
@@ -81,6 +80,7 @@ body {
     padding-bottom: 65%;
 
 }
+
 /*-------------------------------------- Callout Message */
 .timisoara-center-container {
 
@@ -101,41 +101,6 @@ body {
 
   margin: 0;
 }
-
-/*------------------
-
-
-.timisoara-explore {
-
-  font-size: 30px;
-  background-color: #A2A97F;
-  color: #D1D3C6;
-  opacity: 0.8;
-  padding: 10px 20px;
-  border-radius: 15px;
-  display: inline-block;
-}
-
-.timisoara-explore button {
-
-  background-color: #F8694A;
-  color: #E5E40D;
-  border: none;
-  padding: 8px 16px;
-  border-radius: 5px;
-  font-size: 14px;
-  font-weight: bold;
-  cursor: pointer;
-}
-
-.timisoara-explore button:hover {
-
-  background-color: rgba(248, 105, 74, 0.8);
-  color: #E5E40D;
-  font-weight: 500;
-
-}
- */
 
 /*-------------------------------------- Video Container */
 
