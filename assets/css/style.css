@@ -10,19 +10,21 @@ body {
 header {
 
   position: relative;
+  z-index: 2;
 }
 
 .logo {
 
   position: absolute;
+  left: 10px;
   top: 10px;
   bottom: 10px;
 }
 
 .round-logo {
 
-  width: 50px;
-  height: 50px;
+  width: 60px;
+  height: 60px;
   border-radius: 50%;
 }
 
@@ -30,7 +32,7 @@ header {
 
   position: absolute;
   top: 25px;
-  left: 70px;
+  left: 85px;
   display: flex;
   align-items: center;
   color: #A2A97F;
@@ -64,63 +66,84 @@ header {
   color: #E5E40D;
 }
 
-/*-------------------------------------- Hero Image */
+/*-------------------------------------- Background Image */
 
+body {
+  background:url('../images/timisoara-center.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size:cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: 0;
+    padding-bottom: 65%;
+
+}
+/*-------------------------------------- Callout Message */
 .timisoara-center-container {
 
-  position: relative;
-  width: 100%;
-  height: 0;
-  padding-bottom: 75%;
-  
-}
-
-.timisoara-center-image {
-
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.timisoara-center-content {
-
-  position: absolute;
-  top: 55%;
-  left: 50%;
-  text-align: center;
   color: #D1D3C6;
+  position: absolute;
+  width: 50%;
+  top: 15%;
+  left: 25%;
+  text-align: center;
+  display: inline-block;
+  text-decoration: solid;
+  padding: 10px 20px;
+  font-size: 15px;
+  opacity: 0.8;
 }
+
+.timisoara-center-container h2 {
+
+  margin: 0;
+}
+
+/*------------------
+
 
 .timisoara-explore {
 
-  font-size: 40px;
+  font-size: 30px;
   background-color: #A2A97F;
+  color: #D1D3C6;
   opacity: 0.8;
   padding: 10px 20px;
   border-radius: 15px;
   display: inline-block;
 }
 
-.timisoara-explore:hover {
+.timisoara-explore button {
+
+  background-color: #F8694A;
+  color: #E5E40D;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.timisoara-explore button:hover {
 
   background-color: rgba(248, 105, 74, 0.8);
   color: #E5E40D;
-  font-weight: 600;
+  font-weight: 500;
 
 }
-
+ */
 
 /*-------------------------------------- Video Container */
 
 .video-container {
 
-  margin-top: 25px;
-  width: 95%;
+  width: 75%;
   height: 0;
-  padding-bottom: 55%;
+  padding-bottom: 45%;
   position: relative;
   margin-left: auto;
   margin-right: auto;
@@ -131,7 +154,8 @@ header {
 
   width: 100%;
   height: 100%;
-  top: 0;
+  top: 25rem;
   left: 0;
   position: absolute;
 }
+

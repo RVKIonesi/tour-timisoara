@@ -66,24 +66,37 @@ https://www.dw.com/en/timisoara-2023-shine-your-light/video-64610633
 - [Git](https://git-scm.com/) - For version control.
 - [GitHub](https://www.github.com) - To store code.
 
-## Testing
+## Testing & Bugs
 
 Testing was ongoing throughout the entire build. I utilised Chrome developer tools whilst building to pinpoint and troubleshoot any issues as I went along.
 
 During development I made use of google developer tools to ensure everything was working correctly and to assist with troubleshooting when things weren't working as expected.
 
-## Bugs
-
 1. Tested video using video element but the player didn't work at this point as it is a different format, u3m8 instead of mp4. 
-2. I looked for solutions online, after a few attemps using code from stackoverflow I turned to Youtube.
-3. I found the solution for it, please see links:
+ a. I looked for solutions online, after a few attemps using code from stackoverflow I turned to Youtube.
+ b. found the solution for it, please see links:
 
- a. youtube video explaining solution - https://www.youtube.com/watch?v=eVKm12T0BPg
+ c. youtube video explaining solution - https://www.youtube.com/watch?v=eVKm12T0BPg
 
- b. website link from where the solution came - https://videojs.com/getting-started
+ d. website link from where the solution came - https://videojs.com/getting-started
 
+2. Tested navigation, all links work. However, couldn't get explore Timisoara text to link to video underneath the image on home page, as such looked for a way to put image as background and video infront on home page. 
 
+ a. As I researched different methods, these include using z-index and moving the div's from within header to section element.
+ b. After several hours of messing around, I remembered that I've done this before and I can use an image as a background.
+ c. Solution  is to use the following code in the body:
+  body {
+    background: url('../image.jpg');
+    
+    background-position: center;
+    background-attachment: fixed;
+    -webkit-background-size: cover; 
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
 
+3. Tested video
 
 ## The W3C Validator
 
