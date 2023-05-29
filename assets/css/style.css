@@ -10,6 +10,7 @@ body {
 header {
 
   position: relative;
+  z-index: 2;
 }
 
 .logo {
@@ -65,9 +66,9 @@ header {
   color: #E5E40D;
 }
 
-/*-------------------------------------- Background Image */
+/*-------------------------------------- Hero Background Image */
 
-body {
+.timisoara-center-container {
   background:url('../images/timisoara-center.jpg');
     background-position: center;
     background-attachment: fixed;
@@ -77,23 +78,39 @@ body {
     background-size: cover;
     width: 100%;
     height: 0;
-    padding-bottom: 65%;
+    padding-bottom: 55%;
+    animation-name: center-zoom;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
 
 }
 
+@keyframes center-zoom {
+
+  from {
+
+    transform: scale(1);
+  } 
+
+  to {
+
+    transform: scale(1.1);
+  }
+}
+
 /*-------------------------------------- Callout Message */
-.timisoara-center-container {
+.timisoara-center-callout {
 
   color: #D1D3C6;
   position: absolute;
   width: 50%;
-  top: 15%;
+  top: 10%;
   left: 25%;
   text-align: center;
   display: inline-block;
   text-decoration: solid;
   padding: 10px 20px;
-  font-size: 15px;
+  font-size: 10px;
   opacity: 0.8;
 }
 
@@ -106,21 +123,21 @@ body {
 
 .video-container {
 
-  width: 70%;
+  width: 80%;
   height: 0;
   padding-bottom: 35%;
   position: relative;
   margin-left: auto;
   margin-right: auto;
-
 }
 
 #timisoara-video {
 
   width: 100%;
   height: 100%;
-  top: 25rem;
+  top: 18rem;
   left: 0;
   position: absolute;
+  border: 2px solid #D1D3C6;
 }
 
