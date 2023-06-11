@@ -3,6 +3,8 @@
 body {
 
   font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 /*-------------------------------------- Header and Navigation */
@@ -69,6 +71,10 @@ header {
 /*-------------------------------------- Hero Background Image */
 
 .timisoara-center-container {
+
+  width: 100%;
+  height: 100vh;
+  position: relative;
   background:url('../images/timisoara-center.jpg');
     background-position: center;
     background-attachment: fixed;
@@ -76,13 +82,10 @@ header {
     -moz-background-size:cover;
     -o-background-size: cover;
     background-size: cover;
-    width: 100%;
-    height: 0;
-    padding-bottom: 55%;
     animation-name: center-zoom;
     animation-duration: 6s;
     animation-fill-mode: forwards;
-
+    overflow: hidden;
 }
 
 @keyframes center-zoom {
@@ -104,7 +107,7 @@ header {
   color: #D1D3C6;
   position: absolute;
   width: 50%;
-  top: 10%;
+  top: 12%;
   left: 25%;
   text-align: center;
   display: inline-block;
@@ -141,15 +144,104 @@ header {
   border: 2px solid #D1D3C6;
 }
 
+/*-------------------------------------- Questionnaire Section */
+
+.questionnaire-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 105%;
+  height: 75vh;
+  position: relative;
+  background:url('../images/timisoara-new-garden.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size:cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.questionnaire-container {
+  width: 100%;
+  max-width: 500px;
+  background-color: #D1D3C6;
+  color: #A2A97F;
+  border-radius: 80px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  margin-top: 35px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.questionnaire-section h2 {
+  text-align: center;
+}
+
+.text-input {
+  width: 100%;
+  max-width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+}
+
+.textarea-input {
+  width: 100%;
+  max-width: 100%;
+  height: 50px;
+  max-height: 90px;
+  padding: 8px;
+  margin-bottom: 16px;
+  resize: vertical;
+  box-sizing: border-box;
+  overflow-y: auto;
+}
+
+.submit-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #A2A97F;
+  color: #D1D3C6;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #F8694A;
+  color: #E5E40D;
+}
+
+/*------------------- Message Received*/
+
+.message-hidden {
+  display: none;
+}
+
+.message-received {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  font-weight: bold;
+  color: #F8694A;
+}
+
 /*-------------------------------------- Footer */
 
 footer {
 
+  width: 105%;
+  height: 6vh;
+  padding: 0 20px;
+  margin: 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 15vh;
-  background-color: #A2A97F;
+  background-color: #D1D3C6;
 }
 
 #social-networks {
@@ -172,7 +264,7 @@ footer {
   align-items: center;
   width: 50px;
   height: 50px;
-  color: #D1D3C6;
+  color: #A2A97F;
   border-radius: 50%;
   transition: background-color 0.3s ease;
 }
