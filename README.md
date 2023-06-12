@@ -35,8 +35,6 @@ The primary goal of Tour Timisoara is to assist travelers to explore and learn a
  #A2A97F - https://g.co/kgs/yk5VmX
 
  #D1D3C6 - https://g.co/kgs/NguS4u
- 
- #ACBBBE - https://g.co/kgs/1sn4Kz
 
  ### Images
 
